@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Skelleton</title>
+</head>
+<body>
+	<!--
+	The basic skelleton of your app is generally defined in the html side. Is
+	recommended and a good practice to have structures that reflect the content.
+
+	Take in consideration the following:
+	-->
+	<div>
+		<h1>Welcome</h1>
+	</div>
+	<div>
+		<h1>Title</h1>
+		<div>Text</div>
+	</div>
+	<div>
+		<a href="/contact">Contact Us</a>
+	</div>
+	
+	<!--
+	As you can see, that structure is pretty hard to understand. An initial
+	approach to improve that could be to use classes:
+	-->
+	<div class="header">
+		<h1>Welcome</h1>
+	</div>
+	<div class="article">
+		<h1>Title</h1>
+		<div class="content">Text</div>
+	</div>
+	<div class="footer">
+		<a href="/contact">Contact Us</a>
+	</div>
+
+	<!--
+	That added a lot of complexity. Finally, the best approach is to use the
+	HTML5 semanthics to have a better and simpler code:
+	-->
+	<header>Welcome</header>
+	<article>
+		<h1>Title</h1>
+		<p>Text</p>
+	</article>
+	<footer>
+		<a href="/contact">Contact Us</a>
+	</footer>
+</body>
+</html>
