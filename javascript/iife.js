@@ -1,7 +1,7 @@
 /**
  * It's a general good practices to have your base script to run inside a
  * Immediately-invoked function expression (IIFE). This practice is very popular
- * to avoid window/global polution, and having all your variables in a "private"
+ * to avoid window/global pollution, and having all your variables in a "private"
  * scope.
  */
 (function () {
@@ -18,7 +18,7 @@
 })();
 
 /**
- * But outside the fuction, the variables and the constant are inexistent:
+ * But outside the function, the variables and the constant are nonexistent:
  * 
  * This will log "undefined undefined undefined"
  */
