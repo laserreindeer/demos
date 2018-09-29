@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.0.4
+
+- Added example for hoisting.
+- Updated `README.md`.
+
 ## v0.0.3
 
 - Added links to `README.md`.
